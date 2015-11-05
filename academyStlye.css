@@ -1,0 +1,42 @@
+
+div{
+	border: solid;
+}
+li{
+	padding-top:10px;
+}
+#title{
+	text-align: center;
+}
+.subtitle{
+	text-align: center;
+}
+.menu{
+	width:20%;
+	width:15%;
+	position: absolute;
+	top:120px;
+}
+.essQ{
+	position: absolute;
+	left:25%;
+	left:17%;
+	top:120px;
+	width:50%;
+	width:57%;
+	height:150px;
+}
+.extMedia{
+	position: absolute;
+	left:75%;
+	top:120px;
+	width:25%;
+	height:600px;
+}
+.bhl{
+	position: absolute;
+	left:17%;
+	top:290px;
+	width:57%;
+	height:400px;
+}
