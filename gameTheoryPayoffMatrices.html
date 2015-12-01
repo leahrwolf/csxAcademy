@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  	<script src="menu.js"></script>
 	<title>CSX Academy</title>
 	<link rel="stylesheet" href="academyStyle.css">
 
 </head>
-<body>
+<body onload="createMenu('gameTheoryMenu')">
 <h1 id="title">Welcome to CSX Academy</h1>
 <h2 class="subtitle">subtitle</h2>
-<div class="menu">
-<ul>
-	<li>Home</li>
-	<li>Python</li>
-	<li>Game Theory</li>
-	<li>Encryption/Decryption</li>
-	<li>Web Development</li>
-	<li>Artificial Intelligence</li>
-	<li>About the Authors</li>
-</ul>
-</div>
+<div class="menu" id="gameTheoryMenu"></div>
 <div class="essQ">What are Payoff Matrices?
 <p>Payoff matrices...</p></div>
 <div class="extMedia"><iframe width="300" height="300" src="https://www.youtube.com/embed/UCbsUSEkNAI?rel=0" frameborder="0" allowfullscreen></iframe></div>
