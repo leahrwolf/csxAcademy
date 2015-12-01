@@ -1,13 +1,33 @@
 function createMenu (menu) {
 	// this is a comment
-	document.getElementById(menu).innerHTML = "<ul>\
-	<li><a href='home.html' target='_self'>Home</a></li>\
-	<li><a href='pythonHome.html' target='_self'>Python</a></li>\
-	<li><a href='gameTheoryHome.html' target='_self'>Game Theory</a></li>\
-	<li><a href='EncryptionHome.html' target='_self'>Encryption/Decryption</a></li>\
-	<li>Web Development</li>\
-	<li>Artificial Intelligence</li>\
-	<li>About the Authors</li>\
-</ul>";
+	document.getElementById(menu).innerHTML = "<a href='home.html' target='_self'>Home</a>\
+	<div class='dropdown'>\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Python\
+    <span class='caret'></span></button>\
+    <ul class='dropdown-menu'>\
+      <li><a href='pythonHome.html' target='_self'>Python Home</a></li>\
+      <li><a href='pythonStartingWith.html' target='_self'>Starting With</a></li>\
+    </ul>\
+  </div>\
+  <div class='dropdown'>\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Encryption\
+    <span class='caret'></span></button>\
+    <ul class='dropdown-menu'>\
+      <li><a href='EncryptionHome.html' target='_self'>Encryption Home</a></li>\
+      <li><a href='EncryptionBasicCiphers.html' target='_self'>Basic Ciphers</a></li>\
+      <li><a href='EncryptionBinary.html' target='_self'>Binary</a></li>\
+    </ul>\
+  </div>\
+  <div class='dropdown'>\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Game Theory\
+    <span class='caret'></span></button>\
+    <ul class='dropdown-menu'>\
+      <li><a href='gameTheoryHome.html' target='_self'>Game Theory Home</a></li>\
+      <li><a href='gameTheoryPayoffMatrices.html' target='_self'>Payoff Matrices</a></li>\
+      <li><a href='nashEquilibrium.html' target='_self'>Nash Equilibrium</a></li>\
+      <li><a href='p=NP.html' target='_self'>P&#61;NP</a></li>\
+      <li><a href='prisonersDilemma.html' target='_self'>Prisoners Dilemma</a></li>\
+      <li><a href='rockPaperScissors.html' target='_self'>Rock Paper Scissors</a></li>\
+    </ul>\
+  </div>";
 }
-
