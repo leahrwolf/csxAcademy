@@ -36,5 +36,6 @@ function createMenu (menu) {
     <ul class='dropdown-menu'>\
       <li><a href='webDevelopment.html' target='_self'>Web Development Home</a></li>\
     </ul>\
-  </div>";
+  </div>\
+  <a href='abouttheauthors.html' target='_self'>About the Authors</a>";
 }
