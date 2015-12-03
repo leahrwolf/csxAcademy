@@ -29,5 +29,12 @@ function createMenu (menu) {
       <li><a href='prisonersDilemma.html' target='_self'>Prisoners Dilemma</a></li>\
       <li><a href='rockPaperScissors.html' target='_self'>Rock Paper Scissors</a></li>\
     </ul>\
+  </div>\
+  <div class='dropdown'>\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Web Development\
+    <span class='caret'></span></button>\
+    <ul class='dropdown-menu'>\
+      <li><a href='webDevelopment.html' target='_self'>Web Development Home</a></li>\
+    </ul>\
   </div>";
 }
