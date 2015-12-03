@@ -1,6 +1,6 @@
 function createMenu (menu) {
 	// this is a comment
-	document.getElementById(menu).innerHTML = "<a href='home.html' target='_self'>Home</a>\
+	document.getElementById(menu).innerHTML = "<button class='btn btn-primary type='button' onclick=openWindow('home.html')> Home</button>\
 	<div class='dropdown'>\
     <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Python\
     <span class='caret'></span></button>\
@@ -37,5 +37,9 @@ function createMenu (menu) {
       <li><a href='webDevelopment.html' target='_self'>Web Development Home</a></li>\
     </ul>\
   </div>\
-  <a href='abouttheauthors.html' target='_self'>About the Authors</a>";
+  <button class='btn btn-primary type='button' onclick=openWindow('abouttheauthors.html')> About the Authors</button>";
+}
+
+function openWindow(url){
+  window.open(url,"_self");
 }
