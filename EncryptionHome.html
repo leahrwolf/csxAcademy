@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<title>CSX Academy</title>
 	<link rel="stylesheet" href="academyStyle.css">
+	<script src="menu.js"></script>
 	<style> .essQ{
 	position: absolute;
 	left:25%;
@@ -21,29 +26,24 @@
 }
 </style>
 </head>
-<body>
+<body onload="createMenu('encryptionMenu')">
 <h1 id="title">Welcome to CSX Academy</h1>
 <h2 class="subtitle">Encryption and Decryption</h2>
-<div class="menu">
-<ul>
-	<li><a href="home.html" target="_self">Home</a></li>
-	<li><a href="pythonHome.html" target="_self">Python</a></li>
-	<li><a href="gameTheoryHome.html" target="_self">Game Theory</a></li>
-	<li><a href="EncryptionHome.html" target="_self">Encryption/Decryption</a></li>
-	<li>Web Development</li>
-	<li>Artificial Intelligence</li>
-	<li>About the Authors</li>
-</ul>
-</div>
+<div class="menu" id="encryptionMenu"></div>
 <div class="essQ">
 <h3> What is encryption and decryption and why is it important that we know how it works? </h3>
 <p> Encryption is the process of changing plaintext to ciphertext while decryption is changing ciphertext back into plain text. With much of our lives spent using technology, most of our important information is stored on a computer (ie. social security number, credit card numbers, and any other personal information that you store on your computer. This information would be easily accessible if it was just on the computer, in plaintext. To make it hard for attackers, all our our information is encrypted and stored, only to be decrypted when it is necessary. </p>
 </div>
 <div class="extMedia">
+<h2> Watch Our Video!</h2>
+<iframe width="316" height="205" src="https://www.youtube.com/embed/mPerKJzsW38" frameborder="0" allowfullscreen></iframe>
 <h3> Links to More Info: </h3>
 <p> <a href="http://www.differencebetween.info/difference-between-encryption-encoding-and-hashing" target="_blank">Difference between Encryption, Encoding and Hashing</a> </p>
 <p> <a href="https://commons.wikimedia.org/wiki/File:Public_key_encryption.svg" target="_blank">Image of Public key encryption</a> </p>
 <p> <a href="https://www.youtube.com/watch?v=jJrICB_HvuI" target="_blank">Video of Public key encryption</a> </p>
+
+<p><a href="pubvsprivateketwkst.docx" target="_blank" download>Public Key and Private Key Worksheet</a></p>
+
 </div>
 <div class="bhl">
 <h3> Key Terms </h3>
