@@ -24,27 +24,34 @@
 	width:57%;
 	height:400px;
 }
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 </style>
 </head>
 <body onload="createMenu('encryptionMenu')">
-<h1 id="title">Welcome to CSX Encryption and Decryption</h1>
-<h2 class="subtitle">Basic Ciphers</h2>
+<h1 id="title"><span class="rainbow">Welcome to CSX Encryption and Decryption</span></h1>
+<h2 class="subtitle"><span class="rainbow">Basic Ciphers</span></h2>
 <div class="menu" id="encryptionMenu"></div>
 <div class="essQ">
-<h3> What are the basic ciphers and how to use them? </h3>
+<h3 style="color:green;"> What are the basic ciphers and how to use them? </h3>
 <p> A cipher is a means of concealing a message, where letters of the message are substituted or transposed for other letters, letter pairs, and sometimes for many letters. In cryptography, a classical cipher is a type of cipher that was used historically but now has fallen, for the most part, into disuse. In general, classical ciphers operate on an alphabet of letters (such as "A-Z"), and are implemented by hand or with simple mechanical devices. They are probably the most basic types of ciphers, which made them not very reliable, especially after new technology was developed. </p>
 </div>
 <div class="extMedia">
-<h2> Watch Our Video!</h2>
+<h2 style="color:green;"> Watch Our Video!</h2>
 <iframe width="305" height="240" src="https://www.youtube.com/embed/XiXoo8L7alw" frameborder="0" allowfullscreen></iframe>
-<h3> Links to More Info: </h3>
+<h3 style="color:green;"> Links to More Info: </h3>
 <p> <a href="https://en.wikipedia.org/wiki/Classical_cipher" target="_blank">Classical Cipher</a> </p>
 <p> <a href="http://www.vectorsite.net/ttcode_01.html" target="_blank">Introduction To Codes, Ciphers, and Codebreaking</a> </p>
 <p> <a href="cipherswkst.docx" target="_blank">Basic Ciphers Worksheet</a></p>
 
 </div>
 <div class="bhl">
-<h3> Key Terms </h3>
+<h3 style="color:green;"> Key Terms </h3>
 <p>Caesar Shift Cipher: In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.</p>
 <p>Morse Code: an alphabet or code in which letters are represented by combinations of long and short signals of light or sound.</p>
 <p>Steganography: Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. The advantage of steganography over cryptography alone is that the intended secret message does not attract attention to itself as an object of scrutiny. Plainly visible encrypted messages—no matter how unbreakable—arouse interest, and may in themselves be incriminating in countries where encryption is illegal.</p>
