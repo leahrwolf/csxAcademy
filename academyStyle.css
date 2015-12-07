@@ -19,6 +19,7 @@ li{
 }
 .essQ{
 	position: absolute;
+	padding-left: 10px;
 	left:25%;
 	left:17%;
 	top:120px;
@@ -28,6 +29,7 @@ li{
 }
 .extMedia{
 	position: absolute;
+	padding-left: 10px;
 	left:75%;
 	top:120px;
 	width:25%;
@@ -35,6 +37,7 @@ li{
 }
 .bhl{
 	position: absolute;
+	padding-left: 10px;
 	left:17%;
 	top:290px;
 	width:57%;
