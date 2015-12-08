@@ -1,8 +1,8 @@
 function createMenu (menu) {
 	// this is a comment
-	document.getElementById(menu).innerHTML = "<button class='btn btn-primary type='button' onclick=openWindow('home.html')> Home</button>\
+	document.getElementById(menu).innerHTML = "<button class='btn btn-primary type='button' onclick=openWindow('home.html') style='width:80%;'> Home</button>\
 	<div class='dropdown'>\
-    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Python\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown' style='width:80%;'>Python\
     <span class='caret'></span></button>\
     <ul class='dropdown-menu'>\
       <li><a href='pythonHome.html' target='_self'>Python Home</a></li>\
@@ -10,7 +10,7 @@ function createMenu (menu) {
     </ul>\
   </div>\
   <div class='dropdown'>\
-    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Encryption\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown' style='width:80%;'>Encryption\
     <span class='caret'></span></button>\
     <ul class='dropdown-menu'>\
       <li><a href='EncryptionHome.html' target='_self'>Encryption Home</a></li>\
@@ -19,7 +19,7 @@ function createMenu (menu) {
     </ul>\
   </div>\
   <div class='dropdown'>\
-    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Game Theory\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown' style='width:80%;'>Game Theory\
     <span class='caret'></span></button>\
     <ul class='dropdown-menu'>\
       <li><a href='gameTheoryHome.html' target='_self'>Game Theory Home</a></li>\
@@ -31,13 +31,13 @@ function createMenu (menu) {
     </ul>\
   </div>\
   <div class='dropdown'>\
-    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Web Development\
+    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown' style='width:80%;'>Web Development\
     <span class='caret'></span></button>\
     <ul class='dropdown-menu'>\
       <li><a href='webDevelopment.html' target='_self'>Web Development Home</a></li>\
     </ul>\
   </div>\
-  <button class='btn btn-primary type='button' onclick=openWindow('abouttheauthors.html')> About the Authors</button>";
+  <button class='btn btn-primary type='button' onclick=openWindow('abouttheauthors.html') style='width:80%;'> About the Authors</button>";
 }
 
 function openWindow(url){

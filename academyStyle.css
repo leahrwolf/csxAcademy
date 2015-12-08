@@ -1,9 +1,13 @@
 
 div{
 	border: hidden;
+
 }
 li{
 	padding-top:10px;
+}
+body{ 
+	background-color: #E0E4CC;
 }
 #title{
 	text-align: center;
@@ -19,24 +23,30 @@ li{
 }
 .essQ{
 	position: absolute;
+	padding-left: 10px;
 	left:25%;
 	left:17%;
 	top:120px;
 	width:50%;
 	width:57%;
 	height:150px;
+	background-color: #E0E4CC;
 }
 .extMedia{
 	position: absolute;
+	padding-left: 10px;
 	left:75%;
 	top:120px;
 	width:25%;
 	height:600px;
+	
 }
 .bhl{
 	position: absolute;
+	padding-left: 10px;
 	left:17%;
 	top:290px;
 	width:57%;
 	height:400px;
+	background-color: #E0E4CC;
 }
