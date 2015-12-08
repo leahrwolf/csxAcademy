@@ -1,9 +1,13 @@
 
 div{
 	border: hidden;
+
 }
 li{
 	padding-top:10px;
+}
+body{ 
+	background-color: #E0E4CC;
 }
 #title{
 	text-align: center;
@@ -26,6 +30,7 @@ li{
 	width:50%;
 	width:57%;
 	height:150px;
+	background-color: #E0E4CC;
 }
 .extMedia{
 	position: absolute;
@@ -34,6 +39,7 @@ li{
 	top:120px;
 	width:25%;
 	height:600px;
+	
 }
 .bhl{
 	position: absolute;
@@ -42,4 +48,5 @@ li{
 	top:290px;
 	width:57%;
 	height:400px;
+	background-color: #E0E4CC;
 }
