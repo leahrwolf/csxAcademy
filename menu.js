@@ -39,8 +39,14 @@ function createMenu (menu) {
     </ul>\
   </div>\
   <button class='btn btn-primary type='button' onclick=openWindow('abouttheauthors.html') style='width:80%;'> About the Authors</button>";
-}
 
+
+var buttons = document.getElementsByClassName("btn");
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].style.background = "purple";
+    buttons[i].style.borderColor = "#E0E4CC";
+  };
+}
 function openWindow(url){
   window.open(url,"_self");
 }
