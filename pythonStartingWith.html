@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<title>CSX Academy</title>
 	<link rel="stylesheet" href="academyStyle.css">
+	<script src="menu.js"></script>
 
 </head>
-<body>
+<body onload="createMenu('pythonMenu')">
 <h1 id="title">Welcome to CSX Academy</h1>
 <h2 class="subtitle">Starting with Python</h2>
-<div class="menu">
-<ul>
-	<li>Home</li>
-	<li>Python</li>
-	<li>Game Theory</li>
-	<li>Encryption/Decryption</li>
-	<li>Web Development</li>
-	<li>Artificial Intelligence</li>
-	<li>About the Authors</li>
-</ul>
+<div class="menu"id="pythonMenu">
 </div>
 <div class="essQ"><font color="green"><p><b>How do I even start coding with python?</b></p></font>
 <p> You can start by first downloading Sublime. It's a free coding software. Make sure you have some sort of terminal on your computer. Most computers, if not all, come with one already. Then you can look down the page a little bit for instructions.
@@ -25,6 +21,7 @@
 </div>
 <div class="extMedia"><font color="green"><p><b>External Media</b></p></div></font>
 <div class="bhl"><font color="green"><p><b>Sublime Text</b></p></font>
+
 <p>For these lessons, we will be using Sublime text, a program for coding. 
 You can find it <a href="http://www.sublimetext.com">here.</a>
 
@@ -88,10 +85,10 @@ x = len(x) This will change the variable x to the number of characters in the va
 <p>First, make a new variable. For the sake of it, I will use userInput for my variable. Type userInput = raw_input(&quot;What is your name? &quot;) 
 Remember to save, then on the next line down, type print userInput.
 Save again, then test it out in terminal!
-Now, you’ve made a digital parrot, good job, but we can do better! </p>
+Now, you have made a digital parrot, good job, but we can do better! </p>
 
 <p>Get rid of print userInput and instead type print userInput + &quot;, huh?&quot;</p>
-<p>Save, then test it out! Now, you’ve got a judgemental program, that is sort of making your fun of your name, but no too much. If you want, we can make it more polite!</p>
+<p>Save, then test it out! Now, you have got a judgemental program, that is sort of making your fun of your name, but no too much. If you want, we can make it more polite!</p>
 
 <p>Get rid of print userinput + &quot;,huh?&quot; then add</p>
 <p>print &quot;Nice to meet you,&quot; + userInput + &quot;!&quot; There, thats better!</p>
