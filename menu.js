@@ -27,7 +27,6 @@ function createMenu (menu) {
       <li><a href='nashEquilibrium.html' target='_self'>Nash Equilibrium</a></li>\
       <li><a href='p=NP.html' target='_self'>P&#61;NP</a></li>\
       <li><a href='prisonersDilemma.html' target='_self'>Prisoners Dilemma</a></li>\
-      <li><a href='rockPaperScissors.html' target='_self'>Rock Paper Scissors</a></li>\
     </ul>\
   </div>\
   <div class='dropdown'>\
@@ -35,9 +34,16 @@ function createMenu (menu) {
     <span class='caret'></span></button>\
     <ul class='dropdown-menu'>\
       <li><a href='webDevelopment.html' target='_self'>Web Development Home</a></li>\
+      <li><a href='javaScriptPage.html' target='_self'>JavaScript</a></li>\
+      <li><a href='webdevhtml.html' target='_self'>HTML</a></li>\
     </ul>\
   </div>\
   <button class='btn btn-primary type='button' onclick=openWindow('abouttheauthors.html') style='width:80%;'> About the Authors</button>";
+  var buttons = document.getElementsByClassName("btn");
+  for (var i = 0; i < buttons.length; i++) {
+      buttons[i].style.background = "purple";
+      buttons[i].style.borderColor = "#E0E4CC";
+  };
 }
 
 function openWindow(url){
