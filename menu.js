@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c5fc8a8... Updated colors and such.
 function createMenu (menu) {
 	// this is a comment
 <<<<<<< HEAD
@@ -72,6 +75,7 @@ function createMenu (menu) {
 
 function openWindow(url){
   window.open(url,"_self");
+<<<<<<< HEAD
 =======
 function createMenu () {
 	document.getElementById("homeMenu").innerHTML = "";
@@ -83,4 +87,6 @@ function getInfo () {
 	var randomInfo = document.getElementById("title").value;
 	alert(randomInfo)
 >>>>>>> StartingWithPython
+=======
+>>>>>>> parent of c5fc8a8... Updated colors and such.
 }
