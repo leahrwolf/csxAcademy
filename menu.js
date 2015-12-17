@@ -7,6 +7,7 @@ function createMenu (menu) {
     <ul class='dropdown-menu'>\
       <li><a href='pythonHome.html' target='_self'>Python Home</a></li>\
       <li><a href='pythonStartingWith.html' target='_self'>Starting With</a></li>\
+      <li><a href='PythonPrint.html' target='_self'>Python Input/Output</a></li>\
     </ul>\
   </div>\
   <div class='dropdown'>\
